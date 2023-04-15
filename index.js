@@ -3,12 +3,12 @@ div.style.color = 'black';
 document.body.appendChild(div);
 
 const links = [
-    {href: 'chrome://settings/', text: 'Open Chrome Settings'},
+//     {href: 'chrome://settings/', text: 'Open Chrome Settings'},
     {href: 'intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end', text: 'Open Lock Screen Settings'},
     {href: 'intent://com.android.settings/#Intent;scheme=android-app;end', text: 'Open Settings Menu'},
     {href: 'intent://com.google.android.googlequicksearchbox/#Intent;scheme=android-app;end', text: 'Open Google Search App'},
-    {href: 'intent://com.sec.android.app.myfiles/#Intent;scheme=android-app;end', text: 'Open Myfiles App'},
-    {href: 'chrome://settings/', text: 'Open Chrome Settings'}
+//     {href: 'intent://com.sec.android.app.myfiles/#Intent;scheme=android-app;end', text: 'Open Myfiles App'},
+//     {href: 'chrome://settings/', text: 'Open Chrome Settings'}
 ];
 
 links.forEach(link => {
