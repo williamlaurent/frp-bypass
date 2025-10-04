@@ -3,12 +3,19 @@ div.style.color = 'black';
 document.body.appendChild(div);
 
 const links = [
-//     {href: 'chrome://settings/', text: 'Open Chrome Settings'},
     {href: 'intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end', text: 'Open Lock Screen Settings'},
     {href: 'intent://com.android.settings/#Intent;scheme=android-app;end', text: 'Open Settings Menu'},
-    {href: 'intent://com.google.android.googlequicksearchbox/#Intent;scheme=android-app;end', text: 'Open Google Search App'},
-//     {href: 'intent://com.sec.android.app.myfiles/#Intent;scheme=android-app;end', text: 'Open Myfiles App'},
-//     {href: 'chrome://settings/', text: 'Open Chrome Settings'}
+    {href: 'intent://com.android.settings/wifi/#Intent;scheme=android-app;end', text: 'Open Wi-Fi Settings'},
+    {href: 'intent://com.android.settings/bluetooth/#Intent;scheme=android-app;end', text: 'Open Bluetooth Settings'},
+    {href: 'intent://com.android.settings/applications/#Intent;scheme=android-app;end', text: 'Open Application Management'},
+    {href: 'intent://com.android.settings/security/#Intent;scheme=android-app;end', text: 'Open Security Settings'},
+    {href: 'intent://com.android.settings/development/#Intent;scheme=android-app;end', text: 'Open Developer Options'},
+    {href: 'intent://com.android.googlequicksearchbox/#Intent;scheme=android-app;end', text: 'Open Google Search App'},
+    {href: 'intent://com.android.phone/#Intent;scheme=android-app;end', text: 'Open Phone Dialer'},
+    {href: 'intent://com.android.camera2/#Intent;scheme=android-app;end', text: 'Open Camera App'},
+    {href: 'intent://com.android.gallery3d/#Intent;scheme=android-app;end', text: 'Open Gallery'},
+    {href: 'intent://com.android.providers.downloads.ui/#Intent;scheme=android-app;end', text: 'Open Downloads'},
+    {href: 'intent://com.android.contacts/#Intent;scheme=android-app;end', text: 'Open Contacts App'}
 ];
 
 links.forEach(link => {
